@@ -5,8 +5,8 @@ import os
 def job():
     os.system("shutdown /s /t 1")
 
-target_hour = 15  # Target hour (6 PM)
-target_minute = 7  # Target minute
+target_hour = 18  # Target hour (6 PM)
+target_minute = 0  # Target minute
 target_second = 0  # Target second
 
 while True:
